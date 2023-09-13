@@ -5,3 +5,4 @@ flask_blog/__pycache__/forms.cpython-310.pyc
 flask_blog/__pycache__/__init__.cpython-310.pyc
 __pycache__/forms.cpython-310.pyc
 __pycache__/form.cpython-310.pyc
+.env
