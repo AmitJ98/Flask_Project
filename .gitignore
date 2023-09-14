@@ -1,9 +1,10 @@
-flask_blog/_pycache_
-flask_blog/__pycache__/routes.cpython-310.pyc
-flask_blog/__pycache__/models.cpython-310.pyc
-flask_blog/__pycache__/forms.cpython-310.pyc
-flask_blog/__pycache__/__init__.cpython-310.pyc
-__pycache__/forms.cpython-310.pyc
-__pycache__/form.cpython-310.pyc
+flask_blog/__pycache__
+flask_blog/users/__pycache__
+flask_blog/main/__pycache__
+flask_blog/posts/__pycache__
+flask_blog/errors/__pycache__
+
+
+
 .env
 

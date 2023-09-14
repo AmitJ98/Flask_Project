@@ -20,7 +20,7 @@ mail = Mail()
 
 def create_app(config_class = Config):
     app = Flask(__name__)
-    app.config.from_object(Config)
+    app.config.from_object(config_class)
 
     db.init_app(app)
     bycrypt.init_app(app)
@@ -31,10 +31,12 @@ def create_app(config_class = Config):
     from flask_blog.main.routs import main
     from flask_blog.users.routs import users
     from flask_blog.posts.routs import posts
+    from flask_blog.errors.handlers import errors
 
     app.register_blueprint(main)
     app.register_blueprint(users)
     app.register_blueprint(posts)
+    app.register_blueprint(errors)
 
 
     return app
