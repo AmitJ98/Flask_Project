@@ -25,7 +25,7 @@ def create_app(config_class = Config):
     db.init_app(app)
     bycrypt.init_app(app)
     login_manager.init_app(app)
-    mail.init_app(app)
+    # mail.init_app(app)
 
 
     from flask_blog.main.routs import main
